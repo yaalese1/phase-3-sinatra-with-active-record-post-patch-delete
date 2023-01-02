@@ -1,5 +1,7 @@
 puts "🌱 Seeding data..."
-
+# Game.destroy_all
+# User.destroy_all
+# Review.destroy_all
 # Make 10 users
 10.times do
   User.create(name: Faker::Name.name)
